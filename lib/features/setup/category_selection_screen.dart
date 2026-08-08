@@ -106,7 +106,6 @@ class _CategorySelectionScreenState extends State<CategorySelectionScreen>
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Teams Setup Card
                   Container(
                     padding: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
@@ -172,7 +171,6 @@ class _CategorySelectionScreenState extends State<CategorySelectionScreen>
                   ),
                   const SizedBox(height: 24),
 
-                  // Categories Header
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -207,7 +205,6 @@ class _CategorySelectionScreenState extends State<CategorySelectionScreen>
                   ),
                   const SizedBox(height: 16),
 
-                  // Categories Grid with staggered entrance animation + themed color badges
                   GridView.builder(
                     shrinkWrap: true,
                     physics: const NeverScrollableScrollPhysics(),
@@ -310,7 +307,6 @@ class _CategorySelectionScreenState extends State<CategorySelectionScreen>
                   ),
                   const SizedBox(height: 30),
 
-                  // Confirm Button
                   AnimatedContainer(
                     duration: const Duration(milliseconds: 300),
                     width: double.infinity,
