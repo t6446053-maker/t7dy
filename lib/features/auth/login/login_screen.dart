@@ -166,7 +166,6 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                         ),
                         const SizedBox(height: 28),
 
-                        // Titles
                         const Text(
                           'تحداني',
                           style: TextStyle(
@@ -188,7 +187,6 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                         ),
                         const SizedBox(height: 40),
 
-                        // Login / Start Card
                         Container(
                           padding: const EdgeInsets.all(26),
                           decoration: BoxDecoration(
@@ -284,7 +282,6 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                                 ),
                                 const SizedBox(height: 28),
 
-                                // Start Button
                                 Container(
                                   width: double.infinity,
                                   height: 56,
