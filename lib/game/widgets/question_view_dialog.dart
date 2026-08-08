@@ -159,7 +159,6 @@ class _QuestionViewDialogState extends State<QuestionViewDialog> with SingleTick
                 ),
                 const SizedBox(height: 12),
 
-                // Answering team badge
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                   decoration: BoxDecoration(
@@ -181,7 +180,6 @@ class _QuestionViewDialogState extends State<QuestionViewDialog> with SingleTick
                 ),
                 const SizedBox(height: 16),
 
-                // Timer Section
                 Stack(
                   alignment: Alignment.center,
                   children: [
