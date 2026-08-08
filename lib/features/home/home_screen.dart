@@ -82,7 +82,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         children: [
           const Positioned.fill(child: ParticlesBackground()),
 
-          // Background Glowing Circles
           Positioned(
             top: -50,
             left: -50,
@@ -108,7 +107,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
             ),
           ),
 
-          // Main Content
           SafeArea(
             child: Center(
               child: Padding(
@@ -122,7 +120,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                       children: [
                         const Spacer(),
 
-                        // Animated Logo
                         ScaleTransition(
                           scale: _scaleAnimation,
                           child: Container(
@@ -147,7 +144,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                         ),
                         const SizedBox(height: 35),
 
-                        // Game Title
                         ShaderMask(
                           shaderCallback: (bounds) => AppColors.goldGradient.createShader(bounds),
                           child: const Text(
@@ -173,7 +169,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
 
                         const Spacer(),
 
-                        // Premium Animated Start Button
                         AnimatedBuilder(
                           animation: _pulseAnimation,
                           builder: (context, child) {
